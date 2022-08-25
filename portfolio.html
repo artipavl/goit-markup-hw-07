@@ -14,38 +14,40 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="header-accent">
+    <header class="header header--accent">
       <!-- Навігація -->
-      <div class="container header-container">
-        <nav class="nav">
+      <div class="container header__container">
+        <nav class="site-nav">
           <a href="./index.html" lang="en" class="logo">
-            <span class="logo-accent">Web</span>Studio
+            <span class="logo__accent">Web</span>Studio
           </a>
-          <ul class="site-nav list">
-            <li class="nav-items">
-              <a href="./" class="nav-linc">Студія</a>
+          <ul class="site-nav__list">
+            <li class="site-nav__item">
+              <a href="./" class="site-nav__linc">Студія</a>
             </li>
-            <li class="nav-items">
-              <a href="./portfolio.html" class="nav-linc current">Портфоліо</a>
+            <li class="site-nav__item">
+              <a href="./portfolio.html" class="site-nav__linc site-nav__linc--current"
+                >Портфоліо</a
+              >
             </li>
-            <li class="nav-items">
-              <a href="./" class="nav-linc">Контакти</a>
+            <li class="site-nav__item">
+              <a href="./" class="site-nav__linc">Контакти</a>
             </li>
           </ul>
         </nav>
 
-        <ul class="list header-address">
-          <li class="nav-items">
-            <a href="mailto:info@devstudio.com" class="nav-address">
-              <svg class="icon icon-envelope" width="16" height="16">
+        <ul class="header-address">
+          <li class="header-address__item">
+            <a href="mailto:info@devstudio.com" class="header-address__linc">
+              <svg class="icon header-address__icon-envelope" width="16" height="16">
                 <use xlink:href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="nav-items">
-            <a href="tel:+380961111111" class="nav-address">
-              <svg class="icon icon-phone" width="16" height="16">
+          <li class="header-address__item">
+            <a href="tel:+380961111111" class="header-address__linc">
+              <svg class="icon header-address__icon-phone" width="16" height="16">
                 <use xlink:href="./images/icons.svg#icon-phone"></use>
               </svg>
               +38 096 111 11 11
@@ -59,239 +61,239 @@
     <main>
       <section class="section">
         <div class="container">
-          <h1 class="section-title visually-hidden">Портфоліо</h1>
-          <ul class="button-list list">
-            <li class="button-items">
+          <h1 class="section__title visually-hidden">Портфоліо</h1>
+          <ul class="button-list">
+            <li class="button-list__item">
               <button type="button" class="button button-current">Все</button>
             </li>
-            <li class="button-items">
+            <li class="button-list__item">
               <button type="button" class="button">Веб-сайти</button>
             </li>
-            <li class="button-items">
+            <li class="button-list__item">
               <button type="button" class="button">Додатки</button>
             </li>
-            <li class="button-items">
+            <li class="button-list__item">
               <button type="button" class="button">Дизайн</button>
             </li>
-            <li class="button-items">
+            <li class="button-list__item">
               <button type="button" class="button">Маркетинг</button>
             </li>
           </ul>
 
-          <ul class="portfolio-list list">
-            <li class="portfolio-items">
-              <a class="portfolio-linc" href="#">
-                <div class="portfolio-box">
+          <ul class="products-list">
+            <li class="products-list__item">
+              <a class="products-list__linc" href="#">
+                <div class="products-list__box">
                   <img
-                    class="portfolio-img"
+                    class="products-list__img"
                     src="./images/portfolio-1.jpg"
                     alt="Приклад веб сайту"
                     width="370"
                     height="294"
                   />
-                  <div class="portfolio-overlay">
-                    <p class="overlay-text">
+                  <div class="products-list__overlay">
+                    <p class="products-list__meta">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-info">
-                  <h2 class="portfolio-title">Технокряк</h2>
-                  <p class="portfolio-text">Веб-сайт</p>
+                <div class="products-list__info">
+                  <h2 class="products-list__title">Технокряк</h2>
+                  <p class="products-list__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-items">
-              <a class="portfolio-linc" href="#">
-                <div class="portfolio-box">
+            <li class="products-list__item">
+              <a class="products-list__linc" href="#">
+                <div class="products-list__box">
                   <img
-                    class="portfolio-img"
+                    class="products-list__img"
                     src="./images/portfolio-2.jpg"
                     alt="Приклад веб сайту"
                     width="370"
                     height="294"
                   />
-                  <div class="portfolio-overlay">
-                    <p class="overlay-text">
+                  <div class="products-list__overlay">
+                    <p class="products-list__meta">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-info">
-                  <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
-                  <p class="portfolio-text">Дизайн</p>
+                <div class="products-list__info">
+                  <h2 class="products-list__title">Постер New Orlean vs Golden Star</h2>
+                  <p class="products-list__text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-items">
-              <a class="portfolio-linc" href="#">
-                <div class="portfolio-box">
+            <li class="products-list__item">
+              <a class="products-list__linc" href="#">
+                <div class="products-list__box">
                   <img
-                    class="portfolio-img"
+                    class="products-list__img"
                     src="./images/portfolio-3.jpg"
                     alt="Приклад веб сайту"
                     width="370"
                     height="294"
                   />
-                  <div class="portfolio-overlay">
-                    <p class="overlay-text">
+                  <div class="products-list__overlay">
+                    <p class="products-list__meta">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-info">
-                  <h2 class="portfolio-title">Ресторан Seafood</h2>
-                  <p class="portfolio-text">Додаток</p>
+                <div class="products-list__info">
+                  <h2 class="products-list__title">Ресторан Seafood</h2>
+                  <p class="products-list__text">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-items">
-              <a class="portfolio-linc" href="#">
-                <div class="portfolio-box">
+            <li class="products-list__item">
+              <a class="products-list__linc" href="#">
+                <div class="products-list__box">
                   <img
-                    class="portfolio-img"
+                    class="products-list__img"
                     src="./images/portfolio-4.jpg"
                     alt="Приклад веб сайту"
                     width="370"
                     height="294"
                   />
-                  <div class="portfolio-overlay">
-                    <p class="overlay-text">
+                  <div class="products-list__overlay">
+                    <p class="products-list__meta">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-info">
-                  <h2 class="portfolio-title">Проєкт Prime</h2>
-                  <p class="portfolio-text">Маркетинг</p>
+                <div class="products-list__info">
+                  <h2 class="products-list__title">Проєкт Prime</h2>
+                  <p class="products-list__text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-items">
-              <a class="portfolio-linc" href="#">
-                <div class="portfolio-box">
+            <li class="products-list__item">
+              <a class="products-list__linc" href="#">
+                <div class="products-list__box">
                   <img
-                    class="portfolio-img"
+                    class="products-list__img"
                     src="./images/portfolio-5.jpg"
                     alt="Приклад веб сайту"
                     width="370"
                     height="294"
                   />
-                  <div class="portfolio-overlay">
-                    <p class="overlay-text">
+                  <div class="products-list__overlay">
+                    <p class="products-list__meta">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-info">
-                  <h2 class="portfolio-title">Проєкт Boxes</h2>
-                  <p class="portfolio-text">Додаток</p>
+                <div class="products-list__info">
+                  <h2 class="products-list__title">Проєкт Boxes</h2>
+                  <p class="products-list__text">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-items">
-              <a class="portfolio-linc" href="#">
-                <div class="portfolio-box">
+            <li class="products-list__item">
+              <a class="products-list__linc" href="#">
+                <div class="products-list__box">
                   <img
-                    class="portfolio-img"
+                    class="products-list__img"
                     src="./images/portfolio-6.jpg"
                     alt="Приклад веб сайту"
                     width="370"
                     height="294"
                   />
-                  <div class="portfolio-overlay">
-                    <p class="overlay-text">
+                  <div class="products-list__overlay">
+                    <p class="products-list__meta">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-info">
-                  <h2 class="portfolio-title">Inspiration has no Borders</h2>
-                  <p class="portfolio-text">Веб-сайт</p>
+                <div class="products-list__info">
+                  <h2 class="products-list__title">Inspiration has no Borders</h2>
+                  <p class="products-list__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-items">
-              <a class="portfolio-linc" href="#">
-                <div class="portfolio-box">
+            <li class="products-list__item">
+              <a class="products-list__linc" href="#">
+                <div class="products-list__box">
                   <img
-                    class="portfolio-img"
+                    class="products-list__img"
                     src="./images/portfolio-7.jpg"
                     alt="Приклад веб сайту"
                     width="370"
                     height="294"
                   />
-                  <div class="portfolio-overlay">
-                    <p class="overlay-text">
+                  <div class="products-list__overlay">
+                    <p class="products-list__meta">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-info">
-                  <h2 class="portfolio-title">Видання Limited Edition</h2>
-                  <p class="portfolio-text">Дизайн</p>
+                <div class="products-list__info">
+                  <h2 class="products-list__title">Видання Limited Edition</h2>
+                  <p class="products-list__text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-items">
-              <a class="portfolio-linc" href="#">
-                <div class="portfolio-box">
+            <li class="products-list__item">
+              <a class="products-list__linc" href="#">
+                <div class="products-list__box">
                   <img
-                    class="portfolio-img"
+                    class="products-list__img"
                     src="./images/portfolio-8.jpg"
                     alt="Приклад веб сайту"
                     width="370"
                     height="294"
                   />
-                  <div class="portfolio-overlay">
-                    <p class="overlay-text">
+                  <div class="products-list__overlay">
+                    <p class="products-list__meta">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-info">
-                  <h2 class="portfolio-title">Проект LAB</h2>
-                  <p class="portfolio-text">Маркетинг</p>
+                <div class="products-list__info">
+                  <h2 class="products-list__title">Проект LAB</h2>
+                  <p class="products-list__text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-items">
-              <a class="portfolio-linc" href="#">
-                <div class="portfolio-box">
+            <li class="products-list__item">
+              <a class="products-list__linc" href="#">
+                <div class="products-list__box">
                   <img
-                    class="portfolio-img"
+                    class="products-list__img"
                     src="./images/portfolio-9.jpg"
                     alt="Приклад веб сайту"
                     width="370"
                     height="294"
                   />
-                  <div class="portfolio-overlay">
-                    <p class="overlay-text">
+                  <div class="products-list__overlay">
+                    <p class="products-list__meta">
                       Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                       Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                       приватну особу.
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-info">
-                  <h2 class="portfolio-title">Growing Business</h2>
-                  <p class="portfolio-text">Додаток</p>
+                <div class="products-list__info">
+                  <h2 class="products-list__title">Growing Business</h2>
+                  <p class="products-list__text">Додаток</p>
                 </div>
               </a>
             </li>
@@ -302,55 +304,55 @@
 
     <!-- Footer -->
     <footer class="footer">
-      <div class="container">
+      <div class="container footer__container">
         <div>
-          <a href="./index.html" lang="en" class="logo">
-            <span class="logo-accent">Web</span>Studio
+          <a href="./index.html" lang="en" class="logo footer__logo">
+            <span class="logo__accent">Web</span>Studio
           </a>
           <address class="address">
-            <ul class="list">
-              <li class="address-items">
+            <ul>
+              <li class="address__item">
                 <a href="https://goo.gl/maps/Vfk3iaPY69gmRe3H6" class="addrem-map">
                   м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li class="address-items">
-                <a href="mailto:info@devstudio.com" class="address-link"> info@devstudio.com </a>
+              <li class="address__item">
+                <a href="mailto:info@devstudio.com" class="address__link"> info@devstudio.com </a>
               </li>
-              <li class="address-items">
-                <a href="tel:+380961111111" class="address-link"> +38 096 111 11 11 </a>
+              <li class="address__item">
+                <a href="tel:+380961111111" class="address__link"> +38 096 111 11 11 </a>
               </li>
             </ul>
           </address>
         </div>
 
         <!-- соціальні мережі -->
-        <div class="footer-social">
-          <b class="social-title">приєднуйтесь</b>
-          <ul class="list social-list">
-            <li class="social-items">
-              <a href="#" class="social-linc">
-                <svg class="icon" width="20" height="20" alt="instagram">
+        <div class="social">
+          <b class="social__title">приєднуйтесь</b>
+          <ul class="social-list">
+            <li class="social-list__item">
+              <a href="#" class="social-list__linc social-list__linc--colors">
+                <svg class="icon" width="20" height="20">
                   <use xlink:href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-items">
-              <a href="#" class="social-linc">
+            <li class="social-list__item">
+              <a href="#" class="social-list__linc social-list__linc--colors">
                 <svg class="icon" width="20" height="20">
                   <use xlink:href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-items">
-              <a href="#" class="social-linc">
+            <li class="social-list__item">
+              <a href="#" class="social-list__linc social-list__linc--colors">
                 <svg class="icon" width="20" height="20">
                   <use xlink:href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-items">
-              <a href="#" class="social-linc">
+            <li class="social-list__item">
+              <a href="#" class="social-list__linc social-list__linc--colors">
                 <svg class="icon" width="20" height="20">
                   <use xlink:href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
@@ -361,11 +363,16 @@
 
         <!-- підписка -->
         <div class="footer-sub">
-          <form action="">
-            <b class="social-title">Підпишіться на розсилку</b>
-            <div class="sub-box">
-              <label class="email-lable">
-                <input name="email" class="email-input" type="email" placeholder="E-mail" />
+          <form action="" class="sub-form">
+            <b class="sub-form__title">Підпишіться на розсилку</b>
+            <div class="sub-form__box">
+              <label class="sub-form__email-lable">
+                <input
+                  name="email"
+                  class="sub-form__email-input"
+                  type="email"
+                  placeholder="E-mail"
+                />
               </label>
               <button type="submit" class="submit-btn">
                 Підписатися
