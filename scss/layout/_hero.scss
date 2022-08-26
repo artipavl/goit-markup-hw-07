@@ -34,36 +34,4 @@
   color: var(--primary-white-color);
 }
 
-.hero__button {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 32px;
-  padding-right: 32px;
 
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-  border: none;
-  border-radius: 4px;
-
-  cursor: pointer;
-
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-
-  transition: color 250ms var(--primary-animation),
-    background-color 250ms var(--primary-animation);
-
-  &:hover,
-  &:focus {
-    color: var(--accent-color);
-    background-color: var(--primary-white-color);
-  }
-}
